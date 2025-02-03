@@ -39,21 +39,53 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container my-5">
-      <h1 class="text-center mb-4">1년동안 한가지 음식만 먹어야 한다면..</h1>
-      <!-- 대결하는 두 옵션 영역 -->
-      <div id="game-container" class="d-flex justify-content-center">
-        <div id="left-option" class="option mr-3"></div>
-        <div id="right-option" class="option ml-3"></div>
-      </div>
-      <!-- 현재 라운드 정보 -->
-      <div id="round-info" class="text-center mt-3"></div>
-    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">🍔 음식 이상형 월드컵 </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">토너먼트</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">결과</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">문의</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container my-5 text-center content-wrapper">
+      <h1>1년동안 1가지 음식만 먹을 수 있다면..</h1>
+      <br />
+      <div id="round-info" class="my-3"></div>
+      <br />
 
-    <!-- Bootstrap JS 및 의존성 -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
+      <div id="result" class="my-3"></div>
+      <div id="container"></div>
+      <br />
+      <div>
+        <p class="main-text">
+          당신은 올드보이의 주인공이 되었습니다. <br />
+          1년동안 삼시세끼 1가지 음식만 먹을 수 있다면 무엇을 드시겠습니까?
+        </p>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
