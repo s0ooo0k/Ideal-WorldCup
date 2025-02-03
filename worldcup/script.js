@@ -3,7 +3,7 @@ const foods = [
   { id: "cur", title: "고기 없는 야채 카레", ext: ".jpg" },
   { id: "dan", title: "고기 없는 된장찌개", ext: ".jpg" },
   { id: "gan", title: "간장계란밥", ext: ".jpg" },
-  { id: "ham", title: "탄산 없는 햄버거거", ext: ".jpg" },
+  { id: "ham", title: "탄산 없는 햄버거", ext: ".jpg" },
   { id: "jjajang", title: "단무지 없는 짜장면", ext: ".jpg" },
   { id: "kim", title: "기본 야채김밥", ext: ".jpg" },
   { id: "mara", title: "원하는 재료 5가지만 들어간 마라탕", ext: ".jpg" },
