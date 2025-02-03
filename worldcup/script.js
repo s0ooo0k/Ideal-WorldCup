@@ -1,3 +1,4 @@
+// 이미지 16개 불러오기
 const foods = [
   { id: "cur", title: "고기 없는 야채 카레", ext: ".jpg" },
   { id: "dan", title: "고기 없는 된장찌개", ext: ".jpg" },
@@ -22,11 +23,8 @@ const foods = [
 ];
 
 // DOM 요소 가져오기
-// - 왼쪽 옵션을 표시할 요소
-const leftOptionDiv = document.getElementById("left-option");
-// - 오른쪽 옵션을 표시할 요소
-const rightOptionDiv = document.getElementById("right-option");
-// - 현재 라운드 정보를 표시할 요소 (예: 16강, 8강 등)
+const leftOptionDiv = document.getElementById("left-option"); // 왼쪽
+const rightOptionDiv = document.getElementById("right-option"); // 오른쪽
 const roundInfoDiv = document.getElementById("round-info");
 
 // 토너먼트 진행을 위한 변수들
