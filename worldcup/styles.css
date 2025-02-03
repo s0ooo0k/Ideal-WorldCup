@@ -29,7 +29,7 @@ body {
 
 .content-wrapper {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 30px;
+  padding: 30px 15px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -38,7 +38,7 @@ body {
   font-size: 20px;
 }
 #round-info {
-  font-size: 40px;
+  font-size: 30px;
 }
 #container {
   display: flex;
@@ -78,5 +78,5 @@ body {
 }
 
 #result {
-  font-size: 40px;
+  font-size: 25px;
 }
